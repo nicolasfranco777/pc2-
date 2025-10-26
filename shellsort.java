@@ -13,7 +13,7 @@ public class shellsort {
                     j -= gap;
                 }
                 arr[j] = temp;
-            }
+            } 
         }
     }
     public static void main(String[] args) {
