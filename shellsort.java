@@ -12,7 +12,7 @@ public class shellsort {
                     arr[j] = arr[j - gap];
                     j -= gap;
                 }
-                arr[j] = temp;
+                arr[j] = temp;             
             }       
         }
     }
