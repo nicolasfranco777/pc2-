@@ -14,7 +14,7 @@ public class shellsort {
                 } 
                 arr[j] = temp;                 
             }       
-        }
+        }                
     }
     public static void main(String[] args) {
         int[] arr = {23, 12, 1, 8, 34, 54, 2, 3};
