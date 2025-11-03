@@ -2,10 +2,10 @@
     public static void shellSort(int[] arr) {
         int n = arr.length;
         // Comenzamos con un gap grande y lo reducimos en cada pasada
-        for (int gap = n / 2; gap > 0; gap /= 2) {
+        for (int gap = n / 2; gap > 0; gap /= 2) {          
             // Recorremos desde 'gap' hasta el final del arreglo
             for (int i = gap; i < n; i++) {
-                int temp = arr[i]; // Guardamos el valor actual              
+                int temp = arr[i]; // Guardamos el valor actual                
                 int j = i;
                 // Desplazamos los elementos que están a 'gap' posiciones si son mayores que temp
                 while (j >= gap && arr[j - gap] > temp) {
