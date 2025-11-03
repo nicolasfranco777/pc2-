@@ -20,7 +20,7 @@
         int[] arr = {23, 12, 1, 8, 34, 54, 2, 3};
         System.out.println("Arreglo original:");
         for (int num : arr) {
-            System.out.print(num + " ");
+            System.out.print(num + " ");             
         }
         shellSort(arr);
         System.out.println("\n\nArreglo ordenado:");
