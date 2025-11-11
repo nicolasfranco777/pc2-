@@ -1,4 +1,5 @@
- teoria semana 12 y 13
+ teoria semana 11, 12 y 13
+ 
                          
                                  
         
