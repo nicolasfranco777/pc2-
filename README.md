@@ -1,6 +1,31 @@
  teoria semana 11, 12 y 13
- 
-                         
+ semana 11 y 12 
+La técnica de Divide y Vencerás consiste en dividir un problema grande en partes más pequeñas, resolver esas partes (generalmente mediante recursión) y luego combinar los resultados. Esta estrategia mejora la eficiencia y simplifica la solución de problemas complejos.
+
+En ordenación, esta técnica es usada por algoritmos como Quick Sort, que divide el arreglo en sublistas con respecto a un pivote y luego las ordena recursivamente. Gracias a esto, Quick Sort suele ser más rápido que métodos simples como selección o inserción, logrando un tiempo promedio de O(n log n).
+
+El ordenamiento Shell (Shell Sort) mejora el método de inserción permitiendo comparar e intercambiar elementos que están lejos entre sí. Esto reduce de manera significativa el número de movimientos necesarios cuando los elementos están muy desordenados. Su eficiencia depende del tamaño de los saltos (gaps), pudiendo llegar a un promedio de O(n³/²) y ocupando solo O(1) espacio adicional.
+
+En resumen:
+Shell Sort optimiza el ordenamiento permitiendo intercambios lejanos.
+Quick Sort es generalmente más rápido porque usa divide y vencerás y reduce el problema a sublistas pequeñas.
+Divide y vencerás es útil porque descompone problemas complejos en partes manejables, mejorando la eficiencia. 
+
+semana 13
+La recursividad es una técnica de programación en la que una función se llama a sí misma para resolver un problema. Se usa cuando un problema puede dividirse en subproblemas más pequeños del mismo tipo.
+Un método recursivo tiene dos partes esenciales:
+Caso base: condición que detiene la recursión.
+Llamada recursiva: la función se llama nuevamente con un problema más pequeño, acercándose al caso base.
+Durante la ejecución, cada llamada recursiva se almacena en la pila de llamadas, que funciona con el principio LIFO (Last In, First Out). Cuando una llamada termina, se saca de la pila y se vuelve a la anterior.
+Existen dos tipos de recursividad:
+Directa: la función se llama a sí misma.
+Indirecta: una función A llama a B, y B vuelve a llamar a A.
+El backtracking es una técnica basada en recursividad que explora soluciones posibles y retrocede cuando una opción no funciona. Se usa en problemas como resolver laberintos o generar combinaciones.
+La recursión vs. iteración:
+Recursión: más intuitiva para problemas repetitivos, pero usa más memoria por la pila de llamadas.
+Iteración: usa bucles (for/while), suele ser más eficiente en memoria y tiempo.
+Ambas pueden resolver el mismo problema (como el factorial), pero se elige una u otra según la naturaleza del problema.
+
                                  
         
           
