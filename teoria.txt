@@ -25,7 +25,7 @@ La recursión vs. iteración:
 Recursión: más intuitiva para problemas repetitivos, pero usa más memoria por la pila de llamadas.
 Iteración: usa bucles (for/while), suele ser más eficiente en memoria y tiempo.
 Ambas pueden resolver el mismo problema (como el factorial), pero se elige una u otra según la naturaleza del problema.
-
+              
                                  
         
           
