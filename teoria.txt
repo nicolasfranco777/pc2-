@@ -8,7 +8,7 @@ El ordenamiento Shell (Shell Sort) mejora el método de inserción permitiendo c
 
 En resumen:
 Shell Sort optimiza el ordenamiento permitiendo intercambios lejanos.
-Quick Sort es generalmente más rápido porque usa divide y vencerás y reduce el problema a sublistas pequeñas.
+Quick Sort es generalmente más rápido porque usa divide y vencerás y reduce el problema a sublistas pequeñas.           
 Divide y vencerás es útil porque descompone problemas complejos en partes manejables, mejorando la eficiencia. 
                       
 semana 13
