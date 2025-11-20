@@ -10,7 +10,7 @@ En resumen:
 Shell Sort optimiza el ordenamiento permitiendo intercambios lejanos.
 Quick Sort es generalmente más rápido porque usa divide y vencerás y reduce el problema a sublistas pequeñas.           
 Divide y vencerás es útil porque descompone problemas complejos en partes manejables, mejorando la eficiencia. 
-                      
+                              
 semana 13
 La recursividad es una técnica de programación en la que una función se llama a sí misma para resolver un problema. Se usa cuando un problema puede dividirse en subproblemas más pequeños del mismo tipo.
 Un método recursivo tiene dos partes esenciales:
